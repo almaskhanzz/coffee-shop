@@ -14,7 +14,7 @@ const Items = (props) => {
                 <p className='price'>Price: ${price}</p>
             </div>
             <button className='btn-cart'>
-                <p>Add to Cart</p>
+                <p>Place Order</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
         </div>

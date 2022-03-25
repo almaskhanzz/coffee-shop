@@ -1,0 +1,7 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.cart-items{
+    margin-left: 10px;
+}
