@@ -1,0 +1,68 @@
+[
+    {
+        "id": "623e1e66b116e7ee837384e8",
+        "name": "Americano",
+        "price": 20,
+        "picture": "https://img.freepik.com/free-photo/cup-coffee-with-heart-drawn-foam_1286-70.jpg?1&w=900&t=st=1648240644~exp=1648241244~hmac=079291e066103c36ebe5d9d0abe60666ed31be16fa88e0af5b6eab88e81ea64e.jpg"
+    },
+    {
+        "id": "623e1e66c7ef2defe66e36f4",
+        "name": "Espresso",
+        "price": 13,
+        "picture": "https://img.freepik.com/free-photo/wooden-table-with-cup-coffee_1203-1631.jpg?w=996&t=st=1648240705~exp=1648241305~hmac=f28b75e9f4d5c17cf3b7bb38b3a01ee0cc9b120165e25d992d1275506856be3e.jpg"
+    },
+    {
+        "id": "623e1e66f12aa95964473b4b",
+        "name": "Doppio",
+        "price": 9,
+        "picture": "https://img.freepik.com/free-photo/latte-coffee-cup_1203-6548.jpg?w=996&t=st=1648240752~exp=1648241352~hmac=4d9240ffae2a0340fe4fe8fdf5b7c458c66fb0c1b03f9fe2e3df1ba19e2abae9.jpg"
+    },
+    {
+        "id": "623e1e66b8039daea6b4bdec",
+        "name": "Cortado",
+        "price": 11,
+        "picture": "https://img.freepik.com/free-photo/tasty-classic-traditional-italian-coffee-cappuccino-table-cafe-day-light-top-view-with-copy-space_1220-1334.jpg?w=996&t=st=1648240785~exp=1648241385~hmac=5c3a595856a097476528dc45ae6855a9ecf725337b67b93adcd3a6e93e77d3cf.jpg"
+    },
+    {
+        "id": "623e1e6657f51abef5e6931c",
+        "name": "Red Eye",
+        "price": 10,
+        "picture": "https://img.freepik.com/free-photo/cup-coffee-with-drawn-heart_1286-225.jpg?w=996&t=st=1648240817~exp=1648241417~hmac=a83a4387feae851f52e3a07ebe324ae71cfd2c6f609df138c957f68c18eb56dc.jpg"
+    },
+    {
+        "id": "623e1e660c08d7cdf98a1cc1",
+        "name": "Galao",
+        "price": 6,
+        "picture": "https://img.freepik.com/free-photo/beautiful-fresh-relax-morning-coffee-cup-set_1150-7052.jpg?w=996&t=st=1648240883~exp=1648241483~hmac=53a553564f0ac36512064dfab50710ccdc091b0357ea8fe17d65eaf7987a4ca0.jpg"
+    },
+    {
+        "id": "623e1e663a12b33e8f0d9f22",
+        "name": "Lungo",
+        "price": 18,
+        "picture": "https://img.freepik.com/free-photo/side-view-coffee-white-cup-with-coffee-beans-isolated-white-wooden-background_141793-27365.jpg?w=996&t=st=1648240912~exp=1648241512~hmac=2144e5b65daf4daf996bfc6182b2f28f28ca12031f0eea4913e251b06777e266.jpg"
+    },
+    {
+        "id": "623e1e6661eea5604a28d0ca",
+        "name": "Aguapanela Coffee",
+        "price": 22,
+        "picture": "https://img.freepik.com/free-photo/cup-coffee-with-foam-smile-face-desk-isolated_1303-18307.jpg?w=996&t=st=1648240940~exp=1648241540~hmac=bc741e471f96d3ea1d4f9837edd29615b1b54ddc908fc5f5ef657d78d9374711.jpg"
+    },
+    {
+        "id": "623e1e6681c32b4ed75309e3",
+        "name": "Mocha",
+        "price": 13,
+        "picture": "https://img.freepik.com/free-photo/coffee-machine-filling-cup_1286-228.jpg?w=996&t=st=1648240970~exp=1648241570~hmac=ac4b7d4b48ba30ad53358de0ef91e4f0c2293323e35a0f77308932cc69446e18.jpg"
+    },
+    {
+        "id": "623e1e66d4a6638a0f36e060",
+        "name": "Irish",
+        "price": 8,
+        "picture": "https://img.freepik.com/free-photo/cup-coffee-with-coffee-beans-grinder-background_1112-430.jpg?w=996&t=st=1648240999~exp=1648241599~hmac=a441f660e2115c166aae07cf58fe26fc88ab25077fc261a4617430eac22824af.jpg"
+    },
+    {
+        "id": "623e1e665e6e588897dcfe08",
+        "name": "Flat White",
+        "price": 17,
+        "picture": "https://img.freepik.com/free-photo/hot-coffee-mug_1323-163.jpg?w=996&t=st=1648241025~exp=1648241625~hmac=ce36a051635ab872efa4c71b9e7c3d3f2d72bdb42e653277278f223e8ab67b1e.jpg"
+    }
+]
