@@ -3,14 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRemove } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 const Cart = (props) => {
-    const { cart, items, removeCart, chooseCart } = props;
-    //console.log(items.id);
-    // const savedCart = [];
-    // const addedCart = cart.find(cartItem => cartItem.id === items.find(item => item.id));
-    // console.log(addedCart);
-    // if (addedCart) {
-
-    // }
+    const { cart, removeCart, chooseCart } = props;
     return (
         <div className='cart'>
             <h2>Selected Coffees</h2>

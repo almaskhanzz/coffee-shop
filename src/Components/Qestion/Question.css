@@ -1,0 +1,13 @@
+.question-answer{
+    background-color: rgb(249, 252, 255);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.question-answer h1{
+    text-align: center;
+}
+.question-answer p{
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
