@@ -4,19 +4,29 @@ import { faRemove } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 const Cart = (props) => {
     const { cart, removeCart } = props;
+    //console.log(cart);
+    // for (const cartItem of cart) {
+    //     // console.log(cartItem.id);
+    //     const pin = Math.random();
+    //     console.log(pin);
+    // }
     return (
         <div className='cart'>
             <h2>Selected Coffees</h2>
             {
-                cart.map(carts => <div key={carts.id} className='cart-items'>
-                    <img src={carts.picture} alt="" />
-                    <p>{carts.name}</p>
-                    <button><FontAwesomeIcon icon={faRemove}></FontAwesomeIcon></button>
+                cart.map(carts => <div key={carts.id} className='cart-items-container'>
+                    <div className='cart-items'>
+                        <img className='img' src={carts.picture} alt="" />
+                        <p>{carts.name}</p>
+                    </div>
+                    <div>
+                        <button><FontAwesomeIcon icon={faRemove}></FontAwesomeIcon></button>
+                    </div>
                 </div>)
             }
             <div className='btn-choose'>
-                <button>CHOOSE 1 FOR ME</button>
-                <button onClick={() => removeCart(cart)}>CHOOSE AGAIN</button>
+                <button >CHOOSE 1 FOR ME</button><br />
+                <button onClick={() => removeCart()}>CHOOSE AGAIN</button>
             </div>
         </div>
     );

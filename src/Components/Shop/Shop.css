@@ -15,11 +15,27 @@
     padding: 5px 10px;
 }
 @media only screen and (max-width: 600px) {
-    /* .shop-container {
-      grid-template-columns: 2fr 1fr ;
-    } */
-    .item-container{
+    .shop-container {
         grid-template-columns: repeat(1, 1fr);
     }
-  }
-    
+    .item-container{
+        grid-template-columns: repeat(1, 1fr);
+        order: 2;
+    }
+    .cart-container{
+        order: 1;
+    }
+}
+/* @media only screen and (max-width: 1300px) {
+    .item-container{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .header{
+        width: 100%;
+    }
+    .item-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}    */

@@ -14,7 +14,6 @@ const Shop = () => {
     }, []);
     //to share data of items with cart
     const handlePlaceOrder = (item) => {
-        // console.log(item);
         const newCart = [...cart, item];
         setCart(newCart);
     }
