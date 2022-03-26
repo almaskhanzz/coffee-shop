@@ -3,12 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRemove } from '@fortawesome/free-solid-svg-icons';
 import './Cart.css';
 const Cart = (props) => {
-    const { cart, removeCart } = props;
-    //console.log(cart);
-    // for (const cartItem of cart) {
-    //     // console.log(cartItem.id);
-    //     const pin = Math.random();
-    //     console.log(pin);
+    const { cart, items, removeCart, chooseCart } = props;
+    //console.log(items.id);
+    // const savedCart = [];
+    // const addedCart = cart.find(cartItem => cartItem.id === items.find(item => item.id));
+    // console.log(addedCart);
+    // if (addedCart) {
+
     // }
     return (
         <div className='cart'>
@@ -25,11 +26,12 @@ const Cart = (props) => {
                 </div>)
             }
             <div className='btn-choose'>
-                <button >CHOOSE 1 FOR ME</button><br />
+                <button onClick={() => chooseCart()} >CHOOSE 1 FOR ME</button><br />
                 <button onClick={() => removeCart()}>CHOOSE AGAIN</button>
             </div>
         </div>
     );
+
 };
 
 export default Cart;
