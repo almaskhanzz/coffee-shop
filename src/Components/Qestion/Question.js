@@ -10,7 +10,7 @@ const Question = () => {
             </p>
             <h2>Question 2: What are difference between props and State?</h2>
             <p>
-                Ans: The key difference between props and state is that state is internal and controlled by the component itself while props are external and controlled by whatever renders the component.Props allow us to pass data from one component to other components as an argument on the other hand State holds information about the components. Props can be accessed by the child component but State cannot be accessed by child components. Props are used to communicate between components whereas States can be used for rendering dynamic changes with the component.
+                Ans: The key difference between props and state is that state is internal and controlled by the component itself. while props are external and controlled by whatever renders the component.Props allow us to pass data from one component to other components as an argument. On the other hand State holds information about the components. Props can be accessed by the child component but State cannot be accessed by child components. Props are used to communicate between components whereas States can be used for rendering dynamic changes with the component.
             </p>
         </div>
     );

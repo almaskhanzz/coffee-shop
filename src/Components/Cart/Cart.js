@@ -19,12 +19,11 @@ const Cart = (props) => {
                 </div>)
             }
             <div className='btn-choose'>
-                <button onClick={() => chooseCart()} >CHOOSE 1 FOR ME</button><br />
+                <button onClick={() => chooseCart(cart)} >CHOOSE 1 FOR ME</button><br />
                 <button onClick={() => removeCart()}>CHOOSE AGAIN</button>
             </div>
         </div>
     );
-
 };
 
 export default Cart;

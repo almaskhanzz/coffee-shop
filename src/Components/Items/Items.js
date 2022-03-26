@@ -5,7 +5,6 @@ import './Items.css';
 const Items = (props) => {
     const { handlePlaceOrder, item } = props;
     const { name, price, picture } = item;
-    //console.log(picture);
     return (
         <div className='item'>
             <img src={picture} alt="" />
