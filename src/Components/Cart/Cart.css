@@ -1,12 +1,12 @@
 .cart{
     position: sticky;
     top: 0;
+    margin-left: 10px;
 }
 .cart-items{
     display: flex;
     align-items: center;
     justify-content:baseline;
-    margin-left: 10px;
 }
 .cart-items img{
     width: 50px;
@@ -18,4 +18,15 @@
     font-size: 20px;
     font-weight: 500;
     margin-right: 15px;
+}
+.btn-choose button{
+    background: #beb36f;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+}
+.btn-choose button:hover{
+    background-color: #a09246;
+    cursor: pointer;
 }
